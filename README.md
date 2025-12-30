@@ -69,8 +69,7 @@ with mlflow.start_run():
 
 ## 1. Login to AWS console.
 
-## 2. Create IAM user for deployme
-nt
+## 2. Create IAM user for deployment
 
 	#with specific access
 
