@@ -52,7 +52,7 @@ open up you local host and port
 
 ### dagshub
 [dagshub](https://dagshub.com/)
-
+```bash
 import dagshub
 dagshub.init(repo_owner='zouhourbellamine13', repo_name='mlflow_project', mlflow=True)
 
@@ -61,7 +61,7 @@ with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
 
-
+```
 
 
 
@@ -69,7 +69,8 @@ with mlflow.start_run():
 
 ## 1. Login to AWS console.
 
-## 2. Create IAM user for deployment
+## 2. Create IAM user for deployme
+nt
 
 	#with specific access
 
